@@ -20,4 +20,3 @@ images.map((imag) => {
     `<li class='image-gallery'><img width=450 src='${imag.url}' alt='${imag.alt}'></li>`
   );
 });
-console.log(galleryEl);
